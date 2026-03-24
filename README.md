@@ -1,7 +1,6 @@
 # Soil Moisture Reflectance Spectroscopy
 
-This repository contains the data and analysis scripts for the study:  
-**"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
+This repository contains the data and analysis scripts for the study: "Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance" *Accepted in the European Journal of Soil Science (2026).*
 
 ## Overview
 This project investigates how soil moisture affects reflectance in the Shortwave Infrared (SWIR) domain. We found that the "darkening" of soil as moisture increases follows a wavelength-dependent exponential decay which varies based on selected soil properties. 
