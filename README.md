@@ -28,6 +28,7 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
    ```bash
    pip install -r requirements.txt
    ```
+3. Explore and run the notebook!
    
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
