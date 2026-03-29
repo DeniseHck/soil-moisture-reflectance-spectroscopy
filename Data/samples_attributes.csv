@@ -1,0 +1,29 @@
+index,BD 0-20,OC_y,clay,sand,silt,CaCO3,Ox_Fe,NUTS_0,LC1_Desc,USDA,Soil_Code,Texture
+22,1.22,25.77,13.0,55.0,32.0,60.0,2.7,UK,Bare,loam,CM,medium
+10,1.303,13.7,22.0,44.0,33.0,11.0,0.6,AT,Common wheat,loam,CH,medium
+16,1.36,17.3,27.0,20.0,53.0,0.0,4.5,CZ,Common wheat,silt loam,CM,medium
+3,1.574,9.2,14.0,66.0,21.0,0.0,4.8,CZ,Common wheat,sandy loam,LV,moderately coarse
+13,1.568,15.5,2.0,95.0,3.0,0.0,0.6,DK,Temporary grassland,sand,AR,coarse
+17,1.408,18.8,15.0,49.0,37.0,91.0,1.9,EE,Temporary grassland,loam,CM,medium
+25,1.113,34.3,62.0,20.0,18.0,1.0,9.7,FI,Common wheat,clay,CM,fine
+28,1.256,75.3,4.0,86.0,9.0,0.0,2.0,FI,Barley,loamy sand,PZ,coarse
+24,1.175,31.0,17.0,16.0,67.0,0.0,5.0,FR,Maize,silt loam,CM,medium
+7,1.378,12.5,11.0,47.0,42.0,1.0,4.1,FR,Common wheat,loam,CM,medium
+19,1.039,22.1,41.0,26.0,33.0,1.0,4.2,FR,Common wheat,clay,CM,fine
+18,1.256,21.6,34.0,24.0,42.0,193.0,1.2,FR,Temporary grassland,clay loam,LP,moderately fine
+23,1.312,27.9,21.0,26.0,54.0,0.0,1.6,FR,Common wheat,silt loam,CM,medium
+11,1.038,14.0,31.0,19.0,49.0,0.0,3.2,FR,Common wheat,silty clay loam,LV,moderately fine
+4,1.506,9.7,11.0,68.0,22.0,0.0,2.3,DE,Common wheat,sandy loam,GL,moderately coarse
+15,1.276,17.0,16.0,27.0,56.0,0.0,3.1,DE,Maize,silt loam,CM,medium
+14,0.813,15.9,45.0,4.0,52.0,369.0,0.7,EL,Dry pulses,silty clay,FL,fine
+21,1.509,25.7,30.0,3.0,67.0,2.0,1.8,HU,Maize,silty clay loam,AR,moderately fine
+1,1.41,5.0,8.0,2.0,90.0,0.0,1.1,PL,Other non-permanent industrial crops,silt,LV,medium
+12,1.046,14.1,19.0,39.0,43.0,100.0,1.9,PL,Rape and turnip rape,loam,LV,medium
+6,1.109,10.8,17.0,10.0,73.0,3.0,3.4,PL,Maize,silt loam,LV,medium
+26,0.995,37.3,12.0,57.0,32.0,0.0,3.2,PT,Durum wheat,sandy loam,RG,moderately coarse
+2,0.95,7.6,20.0,44.0,36.0,2.0,3.6,ES,Triticale,sandy loam,LP,moderately coarse
+5,1.529,10.1,11.0,61.0,27.0,0.0,2.0,LT,Common wheat,sandy loam,LV,moderately coarse
+8,0.875,13.2,13.0,30.0,56.0,1.0,0.3,IT,Mix of cereals,silt loam,LV,medium
+9,1.067,13.2,20.0,20.0,59.0,1.0,1.8,IT,Other fresh vegetables,silt loam,AT,medium
+27,1.021,56.3,56.0,1.0,43.0,0.0,0.6,SE,Rye,silty clay,CM,fine
+20,1.09,23.3,7.0,63.0,29.0,0.0,3.2,SE,Common wheat,sandy loam,CM,moderately coarse
