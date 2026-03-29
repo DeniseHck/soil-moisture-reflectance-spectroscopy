@@ -1,7 +1,7 @@
 # Soil Moisture Reflectance Spectroscopy
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
 
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
@@ -24,7 +24,9 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 - `Data/`: Contains the spectral and attribute CSV files.
   - `spectral_data.csv`: SWIR reflectance spectra for 28 soil samples
   - `soil_properties.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
-  - `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
+  - `samples_cfactor.csv`: Samples' c-factors.
+  - `samples_sfactor.csv`: Samples' degree of saturation normalised factors.
+- `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
 - `requirements.txt`: List of necessary Python libraries.
 
 ## Setup & Installation
