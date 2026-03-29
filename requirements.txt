@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+statsmodels
+plotly
+openpyxl
+mlxtend
+clhs
+dominance-analysis
