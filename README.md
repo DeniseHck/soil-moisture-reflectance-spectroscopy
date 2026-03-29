@@ -23,6 +23,20 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 - `requirements.txt`: List of necessary Python libraries.
 
 ## Setup & Installation
+
+### Option 1: Conda (Recommended)
+1. Clone the repository.
+2. Create the environment from the `.yml` file:
+   ```bash
+   conda env create -f SM_environment.yml
+   ```
+3. Activate the environment
+   ```bash
+   conda activate soil_moisture_swir
+   ```
+
+### Option 2: Pip
+   
 1. Clone the repository.
 2. Install dependencies:
    ```bash
