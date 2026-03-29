@@ -22,8 +22,8 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
-  - `spectral_data.csv`: SWIR reflectance spectra for 28 soil samples
-  - `soil_properties.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
+  - `sample_spectra.csv`: SWIR reflectance spectra for 28 soil samples
+  - `samples_attributes.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
   - `samples_cfactor.csv`: Samples' c-factors.
   - `samples_sfactor.csv`: Samples' degree of saturation normalised factors.
 - `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
