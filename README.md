@@ -1,5 +1,8 @@
 # Soil Moisture Reflectance Spectroscopy
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.11-blue.svg)
+
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
 
@@ -15,11 +18,13 @@ This project investigates how soil moisture affects reflectance in the Shortwave
 The dataset includes laboratory spectra for 28 European soil samples at varying moisture levels, alongside physical properties (OC, Clay, Silt, Sand content).
 
 > [!IMPORTANT]
-> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `Soil_moisture_reflectance.ipynb`.
+> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `soil_moisture_reflectance.ipynb`.
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
-- `soil_model.ipynb`: Main analysis script including example C factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
+  - `spectral_data.csv`: SWIR reflectance spectra for 28 soil samples
+  - `soil_properties.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
+  - `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
 - `requirements.txt`: List of necessary Python libraries.
 
 ## Setup & Installation
