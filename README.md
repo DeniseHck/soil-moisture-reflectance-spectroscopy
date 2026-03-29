@@ -15,7 +15,7 @@ This project investigates how soil moisture affects reflectance in the Shortwave
 The dataset includes laboratory spectra for 28 European soil samples at varying moisture levels, alongside physical properties (OC, Clay, Silt, Sand content).
 
 > [!IMPORTANT]
-> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `soil_model.ipynb`.
+> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `Soil_moisture_reflectance.ipynb`.
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
@@ -51,4 +51,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## Citation
 If you use this data or code in your research, please cite the original paper:
 
-> Hick, D., Chapman, P. J., Breure, T. S., & Ziv, G. (2026). Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance. *European Journal of Soil Science*. https://doi.org/[Insert_DOI_Here]
+> Hick, D., Chapman, P. J., Breure, T. S., & Ziv, G. (2026). Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance. *European Journal of Soil Science*. https://doi.org/[DOI here]
