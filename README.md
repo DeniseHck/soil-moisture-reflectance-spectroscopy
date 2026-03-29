@@ -25,9 +25,9 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 ## Setup & Installation
 1. Clone the repository.
 2. Install dependencies:
-   '''bash
+   ```bash
    pip install -r requirements.txt
-   '''
+   ```
    
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
