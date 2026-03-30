@@ -22,10 +22,10 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
-  - `sample_spectra.csv`: SWIR reflectance spectra for 28 soil samples
+  - `sample_spectra.csv`: SWIR reflectance spectra for 28 soil samples at different levles of volumetric water content (θ) 
   - `samples_attributes.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
   - `samples_cfactor.csv`: Samples' c-factors.
-  - `samples_sfactor.csv`: Samples' degree of saturation normalised factors.
+  - `samples_sfactor.csv`: Samples' degree of saturation factors. These are derived from volumetric water content (θ) using bulk density (BD) and an assumed particle density of 2.65 g cm⁻³, following S = θ / (1 − BD / 2.65). This transformation is applied to the column names so that reflectance can be expressed as a function of degree of saturation; the s-factor is then calculated in the same way as the c-factor.
 - `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
 - `SM_environment.yml`: yml file for easy environment creation in Conda
 - `requirements.txt`: List of necessary Python libraries.
