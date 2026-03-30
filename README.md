@@ -6,8 +6,8 @@
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
 
+<img width="776" height="530" alt="Screenshot 2026-03-30 at 16 48 11" src="https://github.com/user-attachments/assets/05ad2658-2290-4d0b-aba3-1ee11b9051de" />
 
-<img width="765" height="521" alt="Screenshot 2026-03-30 at 16 43 25" src="https://github.com/user-attachments/assets/70432188-711a-428b-9586-2153e69d5a98" />
 
 
 ## Overview
@@ -56,6 +56,12 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
    pip install -r requirements.txt
    ```
 3. Explore and run the notebook!
+
+
+<img width="992" height="535" alt="Screenshot 2026-03-30 at 16 50 13" src="https://github.com/user-attachments/assets/0c903243-6e83-4e50-958e-a5914f087b11" />
+
+
+
 
 ## Quick Start
 
