@@ -1,7 +1,7 @@
 # Soil Moisture Reflectance Spectroscopy
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.12-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
