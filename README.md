@@ -3,6 +3,9 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 
+<img width="765" height="521" alt="Screenshot 2026-03-30 at 16 43 25" src="https://github.com/user-attachments/assets/70432188-711a-428b-9586-2153e69d5a98" />
+
+
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
 
@@ -22,8 +25,8 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
-  - `sample_spectra.csv`: SWIR reflectance spectra for 28 soil samples at different levles of volumetric water content (θ) 
-  - `samples_attributes.csv`: Physical properties (OC, Clay, Silt, Sand) per sample
+  - `sample_spectra.csv`: VIS-NIR-SWIR reflectance spectra for 28 soil samples at different levles of volumetric water content (θ) 
+  - `samples_attributes.csv`: Physical properties (OC, Clay, Silt, Sand, CaCO3, Ox_Fe, BD) per sample
   - `samples_LUCASID_lookuptable.csv`: Samples' LUCAS POINT IDs
   - `samples_cfactor.csv`: Samples' c-factors.
   - `samples_sfactor.csv`: Samples' degree of saturation factors. These are derived from volumetric water content (θ) using bulk density (BD) and an assumed particle density of 2.65 g cm⁻³, following S = θ / (1 − BD / 2.65). This transformation is applied to the column names so that reflectance can be expressed as a function of degree of saturation; the s-factor is then calculated in the same way as the c-factor.
@@ -52,6 +55,17 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
    pip install -r requirements.txt
    ```
 3. Explore and run the notebook!
+
+## Quick Start
+
+To reproduce the main results:
+
+```bash
+conda env create -f SM_environment.yml
+conda activate soil_moisture_swir
+jupyter notebook soil_moisture_reflectance.ipynb
+```
+
    
 ## License
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
