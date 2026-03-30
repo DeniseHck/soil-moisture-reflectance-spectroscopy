@@ -3,11 +3,12 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 
-<img width="765" height="521" alt="Screenshot 2026-03-30 at 16 43 25" src="https://github.com/user-attachments/assets/70432188-711a-428b-9586-2153e69d5a98" />
-
-
 This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
+
+
+<img width="765" height="521" alt="Screenshot 2026-03-30 at 16 43 25" src="https://github.com/user-attachments/assets/70432188-711a-428b-9586-2153e69d5a98" />
+
 
 ## Overview
 This project investigates how soil moisture affects reflectance in the Shortwave Infrared (SWIR) domain. We found that the "darkening" of soil as moisture increases follows a wavelength-dependent exponential decay which varies based on selected soil properties. 
