@@ -27,6 +27,7 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
   - `samples_cfactor.csv`: Samples' c-factors.
   - `samples_sfactor.csv`: Samples' degree of saturation normalised factors.
 - `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
+- `SM_environment.yml`: yml file for easy environment creation in Conda
 - `requirements.txt`: List of necessary Python libraries.
 
 ## Setup & Installation
