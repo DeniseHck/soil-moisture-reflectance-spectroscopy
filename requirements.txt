@@ -1,12 +1,11 @@
 numpy
 pandas
+scipy
 matplotlib
 seaborn
-scipy
 scikit-learn
 statsmodels
 plotly
 openpyxl
-mlxtend
-clhs
+notebook
 dominance-analysis
