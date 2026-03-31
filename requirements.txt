@@ -1,4 +1,4 @@
-numpy
+numpy==1.23.*
 pandas
 scipy
 matplotlib
@@ -8,4 +8,5 @@ statsmodels
 plotly
 openpyxl
 notebook
-dominance-analysis
+bokeh==2.4.*
+dominance-analysis>=1.1.0
