@@ -55,23 +55,17 @@ The dataset includes laboratory spectra for 28 European soil samples at varying 
    ```bash
    pip install -r requirements.txt
    ```
-3. Explore and run the notebook!
 
+
+ ### Quick start  
+ Run the notebook to reproduce the main results and explore!
+ 
+  ```bash
+  jupyter notebook soil_moisture_reflectance.ipynb
+  ```
 
 <img width="992" height="535" alt="Screenshot 2026-03-30 at 16 50 13" src="https://github.com/user-attachments/assets/0c903243-6e83-4e50-958e-a5914f087b11" />
 
-
-
-
-## Quick Start
-
-To reproduce the main results:
-
-```bash
-conda env create -f SM_environment.yml
-conda activate soil_moisture_swir
-jupyter notebook soil_moisture_reflectance.ipynb
-```
 
    
 ## License
