@@ -9,6 +9,20 @@ This repository contains the data and code for modeling the soil reflectance nor
 <img width="776" height="530" alt="Screenshot 2026-03-30 at 16 48 11" src="https://github.com/user-attachments/assets/05ad2658-2290-4d0b-aba3-1ee11b9051de" />
 
 
+---
+## Table of Contents
+- [Overview](#overview)
+- [Key Findings](#key-findings)
+- [Data](#data)
+- [Repository Structure](#repository-structure)
+- [Setup & Installation](#setup--installation)
+  - [Option 1: Conda (Recommended)](#option-1-conda-recommended)
+  - [Option 2: Pip](#option-2-pip)
+- [Quick Start](#quick-start)
+- [License](#license)
+- [Citation](#citation)
+
+---
 
 ## Overview
 This project investigates how soil moisture affects reflectance in the Shortwave Infrared (SWIR) domain. We found that the "darkening" of soil as moisture increases follows a wavelength-dependent exponential decay which varies based on selected soil properties. 
