@@ -89,4 +89,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ## Citation
 If you use this data or code in your research, please cite the original paper:
 
-> Hick, D., Chapman, P. J., Breure, T. S., & Ziv, G. (2026). Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance. *European Journal of Soil Science*. https://doi.org/[DOI here]
+> Hick, D., Chapman, P. J., Breure, T. S., & Ziv, G. (2026). Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance. *European Journal of Soil Science*. https://doi.org/[insert DOI here]
