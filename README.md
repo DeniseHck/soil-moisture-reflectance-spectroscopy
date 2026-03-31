@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 
-This repository contains the data and code for modeling the soil reflectance normalization factor (c-factor) using physical soil properties, as part of the study:  
+This repository contains the data and code for modeling the soil reflectance normalisation factor (c-factor) using physical soil properties, as part of the study:  
 **"Organic Carbon and Texture control Moisture Dependence of Soil Shortwave Infrared Reflectance"** *Accepted in the European Journal of Soil Science (2026).*
 
 <img width="776" height="530" alt="Screenshot 2026-03-30 at 16 48 11" src="https://github.com/user-attachments/assets/05ad2658-2290-4d0b-aba3-1ee11b9051de" />
@@ -15,23 +15,23 @@ This project investigates how soil moisture affects reflectance in the Shortwave
 
 ### Key Findings:
 * The rate of reflectance decrease is controlled by **Organic Carbon (OC)** and **Soil Texture** (specifically Clay, Silt, and Sand).
-* Our multiple linear regression model explains up to **67% of the variance** in the normalization factor (the "darkening rate").
+* Our multiple linear regression model explains up to **67% of the variance** in the normalisation factor (the "darkening rate").
 * **OC and Clay content** account for **~70% of the relative feature importance** based on Dominance Analysis.
 
 ## Data
 The dataset includes laboratory spectra for 28 European soil samples at varying moisture levels, alongside physical properties (OC, Clay, Silt, Sand content).
 
 > [!IMPORTANT]
-> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `soil_moisture_reflectance.ipynb`.
+> **Reproducibility Note:** The dataset is provided in a fixed index order. Validation metrics (e.g., K-Fold $R^2$) may vary slightly with different data partitioning due to the small sample size ($n=28$). To replicate the specific results in the paper, ensure you use the fixed random seeds provided in the `soil_moisture_reflectance_notebook.ipynb`.
 
 ## Repository Structure
 - `Data/`: Contains the spectral and attribute CSV files.
-  - `sample_spectra.csv`: VIS-NIR-SWIR reflectance spectra for 28 soil samples at different levles of volumetric water content (θ) 
+  - `sample_spectra.csv`: VIS-NIR-SWIR reflectance spectra for 28 soil samples at different levels of volumetric water content (θ) 
   - `samples_attributes.csv`: Physical properties (OC, Clay, Silt, Sand, CaCO3, Ox_Fe, BD) per sample
   - `samples_LUCASID_lookuptable.csv`: Samples' LUCAS POINT IDs
   - `samples_cfactor.csv`: Samples' c-factors.
   - `samples_sfactor.csv`: Samples' degree of saturation factors. These are derived from volumetric water content (θ) using bulk density (BD) and an assumed particle density of 2.65 g cm⁻³, following S = θ / (1 − BD / 2.65). This transformation is applied to the column names so that reflectance can be expressed as a function of degree of saturation; the s-factor is then calculated in the same way as the c-factor.
-- `soil_moisture_reflectance.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
+- `soil_moisture_reflectance_notebook.ipynb`: Main analysis script including example c-factor and normalisation factor determination, log normalisation, ANOVA, and Dominance Analysis.
 - `SM_environment.yml`: yml file for easy environment creation in Conda
 - `requirements.txt`: List of necessary Python libraries.
 
