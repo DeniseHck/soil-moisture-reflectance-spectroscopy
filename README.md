@@ -31,7 +31,7 @@ This project investigates how soil moisture affects reflectance in the Shortwave
 ### Key Findings:
 * The rate of reflectance decrease is controlled by **Organic Carbon (OC)** and **Soil Texture** (specifically Clay, Silt, and Sand).
 * Our multiple linear regression model explains up to **67% of the variance** in the normalisation factor (the "darkening rate").
-* **OC and Clay content** account for **~70% of the relative feature importance** based on Dominance Analysis.
+* **OC and Clay content** account for **~70% of the relative feature importance**.
 
 ## Data
 The dataset includes laboratory spectra for 28 European soil samples at varying moisture levels, alongside physical properties (OC, Clay, Silt, Sand content).
